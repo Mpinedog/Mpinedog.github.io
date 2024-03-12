@@ -1,0 +1,33 @@
+#presentacion{
+    background-color:rgb(111, 167, 167);
+    color: rgb(54, 39, 126);
+}
+
+.list_ob{
+    color:rgb(104, 90, 62);
+    background-color:rgb(149, 188, 176)
+}
+
+
+.titulo{
+    text-decoration: underline;
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid;
+    width: 30%;
+}
+
+.titulo_tabla{
+    border: 1px solid;
+}
+
+
+.table_skills, .tr_skills, .td_skills {
+    border: 1px solid;
+    color:blue;
+    background-color: beige;
+  }
+
+   

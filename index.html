@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martin Pinedo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="presentacion">Bienvenidos a mi pagina de presentacion para el laboratorio 1</h1> 
+    <ul>
+        <li class="list_ob"> Nombre: Martin Pinedo</li>
+        <li class="list_ob"> Major: computer science</li>
+        <li class="list_ob"> year of University enrollment: 2020</li>
+        <li class="list_ob"><a href="https://github.com/Mpinedog">github: Mpinedog</a></li>
+        <li class="list_ob"> //personal sumamary//</li>
+    </ul>
+    <h3 class="titulo">Skills</h3>
+    <table>
+        <tr class="tr_skills">
+            <td class="titulo_tabla">Skill</td>
+            <td class="titulo_tabla">Level</td>
+        </tr>
+        <tr class="tr_skills">
+            <td class="td_skills">Python</td>
+            <td class="td_skills" >Advanced</td>
+        </tr>
+        <tr class="tr_skills">
+            <td class="td_skills">javascript</td>
+            <td class="td_skills">Basic</td>
+        </tr>
+        <tr class="tr_skills">
+            <td class="td_skills">git</td>
+            <td class="td_skills">Basic</td>
+        </tr>
+        <tr class="tr_skills">
+            <td class="td_skills">C</td>
+            <td class="td_skills">Advanced</td>
+        </tr>
+        <tr class="tr_skills">
+            <td class="td_skills">C++</td>
+            <td class="td_skills">Advanced</td>
+        </tr>
+        <tr class="tr_skills">
+            <td class="td_skills">Excel</td>
+            <td class="td_skills">Basic</td>
+        </tr>
+        <tr class="tr_skills">
+            <td class="td_skills">SQL</td>
+            <td class="td_skills">Basic</td>
+        </tr>
+        <tr class="tr_skills">
+            <td class="td_skills">English</td>
+            <td class="td_skills">Advanced</td>
+        </tr>
+        <tr class="tr_skills">
+            <td class="td_skills">Spanish</td>
+            <td class="td_skills">Native</td>
+        </tr>
+    </table>
+
+    <script>
+        function cambiarContenido() {
+            // Obtener el valor del campo de entrada de texto
+            var nuevoContenido = document.getElementById("textoInput").value;
+
+            // Actualizar el contenido de la sección con el nuevo valor
+            document.getElementById("seccionCambiante").textContent = nuevoContenido;
+        }
+    </script>
+
+    <input type="text" id="textoInput" placeholder="Texto para reemplazar">
+    <button onclick="cambiarContenido()"> Cambiar</button>
+
+    <p id="seccionCambiante">
+        aca hay algo escrito que va a cambiar
+    </p>
+
+</body>
+</html>
