@@ -1,3 +1,7 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 #presentacion{
     background-color:rgb(111, 167, 167);
     color: rgb(54, 39, 126);
