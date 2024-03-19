@@ -4,80 +4,140 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Martin Pinedo</title>
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
 <body>
+
+    <div class="jumbotron text-center">
     <h1 id="presentacion">Bienvenidos a mi pagina de presentacion para el laboratorio 1</h1> 
-    <ul>
-        <li class="list_ob"> Nombre: Martin Pinedo</li>
-        <li class="list_ob"> Major: computer science</li>
-        <li class="list_ob"> year of University enrollment: 2020</li>
-        <li class="list_ob"><a href="https://github.com/Mpinedog">github: Mpinedog</a></li>
-    </ul>
-    <h3>Personal Summary:</h3>
-    <p>Soy estudiante de 4 año de ingenieria civil con especializacion en ciencias de la computacion.
-        Tengo minor en liderazgo y coaching. Dentro de los planes a futuro que tengo, 
-        esta la idea de desarrollar conocimientos en ciberseguridad.  </p>
-    <h3 class="titulo">Skills</h3>
-    <table>
-        <tr class="tr_skills">
-            <td class="titulo_tabla">Skill</td>
-            <td class="titulo_tabla">Level</td>
-        </tr>
-        <tr class="tr_skills">
-            <td class="td_skills">Python</td>
-            <td class="td_skills" >Advanced</td>
-        </tr>
-        <tr class="tr_skills">
-            <td class="td_skills">javascript</td>
-            <td class="td_skills">Basic</td>
-        </tr>
-        <tr class="tr_skills">
-            <td class="td_skills">git</td>
-            <td class="td_skills">Basic</td>
-        </tr>
-        <tr class="tr_skills">
-            <td class="td_skills">C</td>
-            <td class="td_skills">Advanced</td>
-        </tr>
-        <tr class="tr_skills">
-            <td class="td_skills">C++</td>
-            <td class="td_skills">Advanced</td>
-        </tr>
-        <tr class="tr_skills">
-            <td class="td_skills">Excel</td>
-            <td class="td_skills">Basic</td>
-        </tr>
-        <tr class="tr_skills">
-            <td class="td_skills">SQL</td>
-            <td class="td_skills">Basic</td>
-        </tr>
-        <tr class="tr_skills">
-            <td class="td_skills">English</td>
-            <td class="td_skills">Advanced</td>
-        </tr>
-        <tr class="tr_skills">
-            <td class="td_skills">Spanish</td>
-            <td class="td_skills">Native</td>
-        </tr>
-    </table>
+    </div>
+
+    <div class="card">
+        <div class="card-body">
+            <ul>
+                <li class="list_ob"> Nombre: Martin Pinedo</li>
+                <li class="list_ob"> Major: computer science</li>
+                <li class="list_ob"> year of University enrollment: 2020</li>
+                <li class="list_ob"><a href="https://github.com/Mpinedog">github: Mpinedog</a></li>
+                </ul>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+            <h3>Personal Summary:</h3>
+            <p>Soy estudiante de 4 año de ingenieria civil con especializacion en ciencias de la computacion.
+                Tengo minor en liderazgo y coaching. Dentro de los planes a futuro que tengo, 
+                esta la idea de desarrollar conocimientos en ciberseguridad.
+        </div>
+      </div>
+
+    <div class="container text-center">
+        <h3 class="titulo">Skills</h3>
+    </div>
+
+    <div class="container text-center">
+        <div class="row align-items-start">
+            <div class="col">
+                <h3>skill</h3>
+            </div>
+            <div class="col">
+              <h3>Level</h3>
+            </div>
+        </div>
+
+        <div class="row align-items-start">
+            <div class="col">
+              Pyhton
+            </div>
+            <div class="col">
+              Advanced
+            </div>
+          </div>
+
+        <div class="row align-items-start">
+            <div class="col">
+              JavaScript
+            </div>
+            <div class="col">
+              Basic
+            </div>
+          </div>
+
+        <div class="row align-items-start">
+            <div class="col">
+              Git
+            </div>
+            <div class="col">
+              Basic
+            </div>
+          </div>
+
+        <div class="row align-items-start">
+            <div class="col">
+              C
+            </div>
+            <div class="col">
+              Advanced
+            </div>
+          </div>
+        <div class="row align-items-start">
+            <div class="col">
+              C++
+            </div>
+            <div class="col">
+              Advanced
+            </div>
+          </div>
+        <div class="row align-items-start">
+            <div class="col">
+              Excel
+            </div>
+            <div class="col">
+              Basic
+            </div>
+          </div>
+        <div class="row align-items-start">
+            <div class="col">
+              SQL
+            </div>
+            <div class="col">
+              Basic
+            </div>
+          </div>
+        <div class="row align-items-start">
+            <div class="col">
+              English
+            </div>
+            <div class="col">
+              Advanced
+            </div>
+          </div>
+        <div class="row align-items-start">
+            <div class="col">
+              Spanish
+            </div>
+            <div class="col">
+              Native
+            </div>
+          </div>
+           
 
     <script>
         function cambiarContenido() {
-            // Obtener el valor del campo de entrada de texto
             var nuevoContenido = document.getElementById("textoInput").value;
-
-            // Actualizar el contenido de la sección con el nuevo valor
             document.getElementById("seccionCambiante").textContent = nuevoContenido;
         }
     </script>
 
-    <input type="text" id="textoInput" placeholder="Texto para reemplazar">
-    <button onclick="cambiarContenido()"> Cambiar</button>
-
-    <p id="seccionCambiante">
-        aca hay algo escrito que va a cambiar
-    </p>
-
+    <div class="container text-center">
+        <input type="text" id="textoInput" placeholder="Texto para reemplazar">
+        <button onclick="cambiarContenido()"> Cambiar</button>
+        <p id="seccionCambiante">
+            aca hay algo escrito que va a cambiar
+        </p>
+    </div>
+      
 </body>
 </html>
